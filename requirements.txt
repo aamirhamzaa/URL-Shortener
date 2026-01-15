@@ -1,0 +1,7 @@
+validators==0.22.0
+requests==2.31.0
+qrcode==7.4.2
+Pillow==10.2.0
+matplotlib==3.8.2
+geoip2==4.7.0
+user-agents==2.2.0
