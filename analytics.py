@@ -202,7 +202,7 @@ class Analytics:
                 logger.warning("No click data available for chart")
                 return None
             
-            plt.figure(figsize=(16, 8) , dpi = 150)
+            plt.figure(figsize=(10, 8) , dpi = 150)
             plt.plot(data['dates'], data['counts'], marker='o', linewidth=2, markersize=4, color='#4CAF50')
             plt.xlabel('Date')
             plt.ylabel('Clicks')
