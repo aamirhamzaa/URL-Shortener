@@ -1156,7 +1156,7 @@ Tags:            {details['tags'] or 'None'}
             
             # Resize image to fit label
             max_width = 800
-            max_height = 500
+            max_height = 400
             image.thumbnail((max_width, max_height), Image.Resampling.LANCZOS)
             
             photo = ImageTk.PhotoImage(image)
